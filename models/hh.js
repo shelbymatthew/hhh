@@ -6,9 +6,9 @@ const hhSchema = new Schema({
   rest: { type: String, required: true },
   time: { type: String, required: true },
   itemsDiscounted: Array,
-  date: { type: Date, default: Date.now }
+  // date: { type: Date, default: Date.now }
 });
 
-const Hh = mongoose.model("Hh", HhSchema);
+const Hh = mongoose.model("Hh", hhSchema);
 
 module.exports = Hh;
