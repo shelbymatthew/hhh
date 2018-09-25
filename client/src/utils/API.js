@@ -3,7 +3,6 @@ import axios from "axios";
 export default {
   // Gets all hhs
   getHhs: function() {
-    console.log("hit api");
     return axios.get("/api/hhs")
   },
   // Gets the Hh with the given id

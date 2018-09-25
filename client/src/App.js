@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Hhs from './pages/Hhs'
+import HhList from './pages/HhList'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Hhs />
+        <HhList />
       </div>
     );
   }
