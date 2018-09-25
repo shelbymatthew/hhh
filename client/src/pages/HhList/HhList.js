@@ -7,8 +7,12 @@ const propTypes = {
     image: PropTypes.string,
     rest: PropTypes.string,
     time: PropTypes.array,
+    url: PropTypes.string,
+    outOfDate: PropTypes.number,
     itemsDiscounted: PropTypes.array,
+    date: PropTypes.string
 };
+
 /**
  * hhsList class
  */
